@@ -1,6 +1,16 @@
 \cvsection{Projects} %	SECTION TITLE
 \begin{cventries} %	CONTENT
   \cvsimpleentry
+    {\href{https://github.com/huynguyenanh2000/mini-db-go}{\textbf{Mini Database with Golang}}} % Name
+    {2025} % Date
+    {
+      \begin{cvitems} % Description
+        \item {Engineered a persistent Key-Value storage engine from scratch using Golang, implementing an \textbf{Append-Only Log} structure and \textbf{Index Data Structures} (B-Tree/Hash Index) to optimize disk I/O and ensure data durability.}
+        \item {Architected a thread-safe Concurrency Control system to support ACID transactions, utilizing \textbf{mutex locks} and \textbf{atomic operations} to prevent race conditions and ensure data consistency during simultaneous read/write requests.}
+        \item {Developed a SQL query execution layer on top of the KV store, featuring a custom parser and relational logic, enabling users to interact with the database using standard SQL syntax for complex data retrieval.}
+      \end{cvitems}
+    }
+  \cvsimpleentry
     {\href{https://github.com/huynguyenanh2000/ml-fastapi}{\textbf{ML Model Deployment with FastAPI \& CI/CD}}} % Name
     {2023} % Date
     {
@@ -10,16 +20,4 @@
         \item {The final model achieved over \textbf{85\% accuracy} on the test set and was successfully containerized using \textbf{Docker} for reproducibility.}
       \end{cvitems}
     }
-
-  \cvsimpleentry
-    {\href{https://github.com/huynguyenanh2000/Predict-Customer-Churn/tree/master}{\textbf{Customer Churn Prediction Package}}} % Name
-    {2018} % Date
-    {
-      \begin{cvitems} % Description
-        \item {Engineered a comprehensive \textbf{Python package} for customer churn prediction, adhering to clean code principles and software development best practices.}
-        \item {Implemented a robust pipeline for data processing, feature engineering, and model training, including data validation with \textbf{Pydantic} and a full testing suite using \textbf{Pytest}.}
-        \item {The final \textbf{XGBoost} model achieved a \textbf{90\% AUC-ROC score}, providing actionable insights to potentially \textbf{reduce customer attrition by 10\%}.}
-      \end{cvitems}
-    }
-
 \end{cventries}
